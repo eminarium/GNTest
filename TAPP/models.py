@@ -23,3 +23,23 @@ class Season(models.Model):
     class Meta:
         db_table = "seasons"
 
+
+class Shift(models.Model):
+    shift_title = models.CharField(max_length = 50, blank = False)
+    shift_from = models.TimeField(blank = False)
+    shift_to = models.TimeField(blank = False)
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "shifts"
+
+
+class Subject(models.Model):
+    subject_full_title = models.CharField(max_length = 255, blank = False)
+    subject_short_title = models.CharField(max_length = 50, blank = False)
+    subject_level = models.IntegerField()
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "subjects"
+
