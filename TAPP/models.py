@@ -37,9 +37,18 @@ class Shift(models.Model):
 class Subject(models.Model):
     subject_full_title = models.CharField(max_length = 255, blank = False)
     subject_short_title = models.CharField(max_length = 50, blank = False)
-    subject_level = models.IntegerField()
+    subject_level = models.IntegerField(blank = False)
     notes = models.TextField(blank = True)
 
     class Meta:
         db_table = "subjects"
+
+class Topic(models.Model):
+    subject = models.ForeignKey(Subject, on_delete = models.CASCADE, blank = False)
+    topic_title = models.CharField(max_length = 50, blank = False)
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "topics"
+
 
