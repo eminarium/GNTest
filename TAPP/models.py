@@ -52,3 +52,14 @@ class Topic(models.Model):
         db_table = "topics"
 
 
+class Group(models.Model):
+    season = models.ForeignKey(Season, on_delete = models.CASCADE, blank = False)
+    teacher = models.ForeignKey(Teacher, on_delete = models.CASCADE, blank = False)
+    shift = models.ForeignKey(Shift, on_delete = models.CASCADE, blank = False)
+    group_title = models.CharField(max_length = 25, blank = False)
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "groups"
+
+
