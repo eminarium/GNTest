@@ -1,0 +1,122 @@
+[
+    {
+        "model": "TAPP.subject",
+        "pk": 1,
+        "fields": {
+            "subject_full_title": "Kompýuter-1",
+            "subject_short_title": "COMP-1",
+            "subject_level": "1",
+            "notes": "Microsoft Windows, Microsoft Word, Microsoft Excel"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 2,
+        "fields": {
+            "subject_full_title": "Kompýuter-2",
+            "subject_short_title": "COMP-2",
+            "subject_level": "2",
+            "notes": "Adobe Photoshop, Corel Draw"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 3,
+        "fields": {
+            "subject_full_title": "Kompýuter-3",
+            "subject_short_title": "COMP-3",
+            "subject_level": "3",
+            "notes": "Autodesk AutoCAD"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 4,
+        "fields": {
+            "subject_full_title": "Kompýuter-4",
+            "subject_short_title": "COMP-4",
+            "subject_level": "4",
+            "notes": "Autodesk 3D Studio Max"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 5,
+        "fields": {
+            "subject_full_title": "Kompýuter-5",
+            "subject_short_title": "COMP-5",
+            "subject_level": "5",
+            "notes": "Programmirlemäniň Esaslary (C++/Java)"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 6,
+        "fields": {
+            "subject_full_title": "Kompýuter-6",
+            "subject_short_title": "COMP-6",
+            "subject_level": "6",
+            "notes": "Kompýutere Tehniki Hyzmat Ediji"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 7,
+        "fields": {
+            "subject_full_title": "Kompýuter-7",
+            "subject_short_title": "COMP-7",
+            "subject_level": "7",
+            "notes": "Kompýuter Tor Administratory"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 8,
+        "fields": {
+            "subject_full_title": "Kompýuter-8",
+            "subject_short_title": "COMP-8",
+            "subject_level": "8",
+            "notes": "Kompýutere Tor Infrastrukturasy"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 9,
+        "fields": {
+            "subject_full_title": "Kompýuter-9",
+            "subject_short_title": "COMP-9",
+            "subject_level": "9",
+            "notes": "Web Taslama (HTML + CSS + Javascript)"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 10,
+        "fields": {
+            "subject_full_title": "Kompýuter-10",
+            "subject_short_title": "COMP-10",
+            "subject_level": "10",
+            "notes": "Web Programmirleme (PHP + MySql)"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 11,
+        "fields": {
+            "subject_full_title": "Kompýuter-11",
+            "subject_short_title": "COMP-11",
+            "subject_level": "11",
+            "notes": "Maglumat Bazalaryny Dolandyryjy (Umumy Teoriýa, MS Sql Server we ş.m.)"
+        }
+    },
+    {
+        "model": "TAPP.subject",
+        "pk": 12,
+        "fields": {
+            "subject_full_title": "Kompýuter-12",
+            "subject_short_title": "COMP-12",
+            "subject_level": "12",
+            "notes": "Microsoft Access arkaly Maglumatlar Ammaryny Dolandyrmak"
+        }
+    }
+]

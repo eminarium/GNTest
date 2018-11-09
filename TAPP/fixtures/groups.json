@@ -1,0 +1,46 @@
+[
+    {
+        "model": "TAPP.group",
+        "pk": 1,
+        "fields": {
+            "season_id": "1",
+            "teacher_id": "1",
+            "shift_id": "4",
+            "group_title": "K9WdA",
+            "notes": "Web Taslama Topary"
+        }
+    },
+    {
+        "model": "TAPP.group",
+        "pk": 2,
+        "fields": {
+            "season_id": "1",
+            "teacher_id": "3",
+            "shift_id": "4",
+            "group_title": "K3A",
+            "notes": "Autodesk AutoCad topary"
+        }
+    },
+    {
+        "model": "TAPP.group",
+        "pk": 3,
+        "fields": {
+            "season_id": "2",
+            "teacher_id": "1",
+            "shift_id": "4",
+            "group_title": "K10WpA",
+            "notes": "Web Programmirleme Topary"
+        }
+    },
+    {
+        "model": "TAPP.group",
+        "pk": 4,
+        "fields": {
+            "season_id": "2",
+            "teacher_id": "3",
+            "shift_id": "4",
+            "group_title": "K4A",
+            "notes": "Autodesk 3DSMax topary"
+        }
+    } 
+]

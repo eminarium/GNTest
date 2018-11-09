@@ -1,0 +1,42 @@
+[
+    {
+        "model": "TAPP.shift",
+        "pk": 1,
+        "fields": {
+            "shift_title": "Irden",
+            "shift_from": "09:00:00",
+            "shift_to": "11:45:00",
+            "notes": "Bellikler - Irden"
+        }
+    },
+    {
+        "model": "TAPP.shift",
+        "pk": 2,
+        "fields": {
+            "shift_title": "Günortan",
+            "shift_from": "12:00:00",
+            "shift_to": "14:45:00",
+            "notes": "Bellikler - Günortan"
+        }
+    },
+    {
+        "model": "TAPP.shift",
+        "pk": 3,
+        "fields": {
+            "shift_title": "Öýlän",
+            "shift_from": "15:00:00",
+            "shift_to": "17:45:00",
+            "notes": "Bellikler - Öýlän"
+        }
+    },
+    {
+        "model": "TAPP.shift",
+        "pk": 4,
+        "fields": {
+            "shift_title": "Agşam",
+            "shift_from": "18:30:00",
+            "shift_to": "21:15:00",
+            "notes": "Bellikler - Agşam"
+        }
+    }
+]

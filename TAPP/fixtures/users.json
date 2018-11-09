@@ -1,0 +1,41 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "first_name": "Merdan",
+            "last_name": "Durdyýew",
+            "username": "mdzine",
+            "password": "123",
+            "email": "merdan.durdiyev@gmail.com",
+            "is_staff": "False",
+            "is_superuser": "False"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "first_name": "Toýly",
+            "last_name": "Gurdow",
+            "username": "tgb",
+            "password": "123",
+            "email": "toyligb@gmail.com",
+            "is_staff": "False",
+            "is_superuser": "False"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "first_name": "Enwer",
+            "last_name": "Gurbanow",
+            "username": "enwer",
+            "password": "123",
+            "email": "enwer.gurbanow@gmail.com",
+            "is_staff": "False",
+            "is_superuser": "False"
+        }
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "model": "TAPP.teacher",
+        "pk": 1,
+        "fields": {
+            "user_id": "2"
+        }
+    },
+    {
+        "model": "TAPP.teacher",
+        "pk": 2,
+        "fields": {
+            "user_id": "3"
+        }
+    },
+    {
+        "model": "TAPP.teacher",
+        "pk": 3,
+        "fields": {
+            "user_id": "4"
+        }
+    }
+]

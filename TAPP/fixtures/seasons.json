@@ -1,0 +1,24 @@
+[
+    {
+        "model": "TAPP.season",
+        "pk": 1,
+        "fields": {
+            "season_no": "17",
+            "season_title": "Güýz - 2018",
+            "season_from_date": "2018-09-12",
+            "season_to_date": "2018-11-01",
+            "notes": "Güýz - 2018"
+        }
+    },
+    {
+        "model": "TAPP.season",
+        "pk": 2,
+        "fields": {
+            "season_no": "18",
+            "season_title": "Gyş - 2018",
+            "season_from_date": "2018-12-10",
+            "season_to_date": "2019-03-02",
+            "notes": "Gyş - 2018"
+        }
+    }    
+]
