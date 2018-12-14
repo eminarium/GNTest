@@ -77,3 +77,40 @@ class QuestionBank(models.Model):
     class Meta:
         db_table = "question_banks"
 
+class McQuestion(models.Model):
+    topic = models.ForeignKey(Topic, blank = False)
+    question_bank = models.ForeignKey(QuestionBank, blank = False)
+    teacher = models.ForeignKey(Teacher, blank = False)
+    date_created = models.DateField(blank = False)
+    question_txt_content = models.TextField(blank = True)
+    question_img_content = models.ImageField(blank = True)
+    is_multi_response = models.BooleanField(blank = False)
+    points = models.FloatField(blank = True)
+    answer_1_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_1_img_content = models.ImageField(blank = True)
+    is_answer_1_right = models.BooleanField(blank = False)
+    answer_2_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_2_img_content = models.ImageField(blank = True)
+    is_answer_2_right = models.BooleanField(blank = False)
+    answer_3_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_3_img_content = models.ImageField(blank = True)
+    is_answer_3_right = models.BooleanField(blank = False)
+    answer_4_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_4_img_content = models.ImageField(blank = True)
+    is_answer_4_right = models.BooleanField(blank = False)
+    answer_5_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_5_img_content = models.ImageField(blank = True)
+    is_answer_5_right = models.BooleanField(blank = False)
+    answer_6_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_6_img_content = models.ImageField(blank = True)
+    is_answer_6_right = models.BooleanField(blank = False)
+    answer_7_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_7_img_content = models.ImageField(blank = True)
+    is_answer_7_right = models.BooleanField(blank = False)
+    answer_8_txt_content = models.CharField(max_length = 255, blank = True)
+    answer_8_img_content = models.ImageField(blank = True)
+    is_answer_8_right = models.BooleanField(blank = False)
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "mc_questions"

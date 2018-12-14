@@ -31,3 +31,8 @@ def groups(request):
     groups = Group.objects.all()
 
     return render(request, "groups.html", {'groups':groups, 'counter':0})
+
+def question_banks(request):
+    question_banks = QuestionBank.objects.all()
+
+    return render(request, "question_banks.html", {'question_banks':question_banks, 'counter':0})

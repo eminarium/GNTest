@@ -7,4 +7,5 @@ urlpatterns = [
     url(r'^shifts/$', views.shifts, name='shifts'),
     url(r'^topics/$', views.topics, name='topics'),
     url(r'^groups/$', views.groups, name='groups'),
+    url(r'^question_banks/$', views.question_banks, name='question_banks'),
 ]
