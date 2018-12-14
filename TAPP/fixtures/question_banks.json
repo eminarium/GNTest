@@ -1,0 +1,26 @@
+[
+    {
+        "model": "TAPP.questionbank",
+        "pk": 1,
+        "fields": {
+            "qb_title": "Komp-10 (Web Programming) Midterm-I",
+            "date_created": "2018-12-14",
+            "is_password_protected": "0",
+            "qb_password": "",
+            "teacher_id": "1",
+            "notes": "Web Programming boýunça Arasynag-I"
+        }
+    },
+    {
+        "model": "TAPP.questionbank",
+        "pk": 2,
+        "fields": {
+            "qb_title": "Komp-9 (Web Design) Midterm-I",
+            "date_created": "2018-12-14",
+            "is_password_protected": "1",
+            "qb_password": "test",
+            "teacher_id": "1",
+            "notes": "Web Dizaýn boýunça Arasynag-I"
+        }
+    }
+]

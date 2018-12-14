@@ -48,7 +48,7 @@ class Subject(models.Model):
         db_table = "subjects"
 
 class Topic(models.Model):
-    subject = models.ForeignKey(Subject, on_delete = models.CASCADE, blank = False)
+    subject = models.ForeignKey(Subject, blank = False)
     topic_title = models.CharField(max_length = 50, blank = False)
     notes = models.TextField(blank = True)
 
@@ -57,13 +57,23 @@ class Topic(models.Model):
 
 
 class Group(models.Model):
-    season = models.ForeignKey(Season, on_delete = models.CASCADE, blank = False)
-    teacher = models.ForeignKey(Teacher, on_delete = models.CASCADE, blank = False)
-    shift = models.ForeignKey(Shift, on_delete = models.CASCADE, blank = False)
+    season = models.ForeignKey(Season, blank = False)
+    teacher = models.ForeignKey(Teacher, blank = False)
+    shift = models.ForeignKey(Shift, blank = False)
     group_title = models.CharField(max_length = 25, blank = False)
     notes = models.TextField(blank = True)
 
     class Meta:
         db_table = "groups"
 
+class QuestionBank(models.Model):
+    teacher = models.ForeignKey(Teacher, blank = False)
+    qb_title = models.CharField(max_length = 50, blank = False)
+    date_created = models.DateField(blank = False)
+    is_password_protected = models.BooleanField(blank = False)
+    qb_password = models.CharField(max_length = 25)
+    notes = models.TextField(blank = True)
+
+    class Meta:
+        db_table = "question_banks"
 
